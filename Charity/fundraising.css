@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #b8b4b4;
+    color: #222;
+    overflow-x: hidden; 
+    margin: 0; 
+}
+
+.header {
+    margin: 10px; 
+}
+
+.fa {
+    font-size: 25px;
+    color: #222;
+}
+
+form {
+    float: right;
+}
+
+#tsearch {
+    width: 200px;
+}
+
+h1 {
+    padding-top: 40px;
+    font-size: 55px;
+    text-align: center;
+}
+
+.section{
+    background: url(assets/weim1.jpg) center center no-repeat;
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.section h1 {
+    color: #dedddc;
+}
+
+.row {
+    width: 100%;
+    height: auto;
+    padding: 60px 0 60px 0; 
+    display: flex;
+    flex-direction: row;  
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+.column1 {
+    width: 25%;
+    padding: 0 10px;
+    text-align: center;
+}
+
+a {
+    color: #222;
+}
+
+.column2 {
+    padding-left: 45px;;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.column2 p{
+    padding: 0 0 30px 0;
+    text-align: center;
+}
+
+.form {
+    max-width: 500px;
+    height: auto;
+    border-radius: 5px;
+    background-color: #b8b4b4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    align-self: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+.form input[type=submit] {
+    background-color: white;
+    color: #222;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.form input[type=submit]:hover {
+    background-color: #6b6969;
+}
+
+footer {
+    padding: 5px 0;
+    height: 150px;
+    background-color: #222;
+    color: #dedddc;
+    text-align: center;
+}
+
+.fab {
+    color: white;
+}
+  

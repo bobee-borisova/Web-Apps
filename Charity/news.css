@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #b8b4b4;
+    color: #222;
+    overflow-x: hidden; 
+    margin: 0; 
+}
+
+.header {
+    margin: 10px; 
+}
+
+.fa {
+    font-size: 25px;
+    color: #222;
+}
+
+form {
+    float: right;
+}
+
+#tsearch {
+    width: 200px;
+}
+
+h1 {
+    padding-top: 40px;
+    font-size: 55px;
+    text-align: center;
+}
+
+.section{
+    background: url(assets/weim3.jpg) center center no-repeat;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.section h1{
+    font-size: 45px;
+}
+
+.parallax-window {
+    min-height: 500px;
+    background: transparent;
+}
+
+.paralax-spacing {
+    padding: 100px 0;
+}
+
+main h2, p{
+    padding: 10px;
+    text-align:justify;
+}
+
+footer {
+    padding: 5px 0;
+    height: 150px;
+    background-color: #222;
+    color: #dedddc;
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+}
+
+.fab {
+    color: white;
+}

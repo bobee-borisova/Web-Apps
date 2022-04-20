@@ -6,13 +6,13 @@
 
 html, body {
     height: 100%;
+    width: 100%;
 }
 
 body {
     font-family: 'Lato', sans-serif;
     background-color: #b8b4b4;
     color: #222;
-    overflow-x: hidden; 
     margin: 0; 
 }
 
@@ -58,11 +58,19 @@ h1 {
 }
 
 footer {
-    padding: 5px 0;
+    padding: 30px 0;
     height: 150px;
     background-color: #222;
     color: #dedddc;
     text-align: center;
+}
+
+footer h3{
+    font-size: 20px;
+}
+
+footer small{
+    font-size: 15px;
 }
 
 .fab {

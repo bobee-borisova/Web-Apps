@@ -6,6 +6,7 @@
 
 html, body {
     height: 100%;
+    width: 100%;
 }
 
 body {
@@ -17,7 +18,8 @@ body {
 }
 
 .header {
-    margin: 10px; 
+    margin: 0 10px; 
+    height: 80px;
 }
 
 form {
@@ -25,7 +27,16 @@ form {
 }
 
 #tsearch {
-    width: 200px;
+    width: 180px;
+    height: 32px;
+    font-size: 16px;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+#btn{
+    height: 32px;
+    font-size: 16px;
+    font-family: "Helvetica Neue", sans-serif;
 }
 
 h1 {
@@ -68,7 +79,6 @@ h1 {
     padding-right: 30px;
     padding-bottom: 30px;
 }
-
 
 .row {
     width: 100%;

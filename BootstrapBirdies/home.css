@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@300&family=Roboto:wght@400;700&family=Square+Peg&display=swap');
+
+body{
+    background-color: #dbd895;
+    /* #95a0db; */
+    font-family: 'Lobster', cursive;
+}
+
+.dropdown-menu{
+    width: 300px;
+    padding: 10px;
+}
+
+.form-group{
+    padding: 5px 0;
+}
+.btn{
+    margin-top: 7px;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+.card{
+    margin: 15px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+}
+
+.card-img-top{
+    width: auto;
+    height: 60%;
+}
+.card-body a{
+    text-decoration: none;
+    color: black;
+}
+
+.page-footer{
+    height: 60px;
+    background-color: #8f8f8f;
+}
+
+.page-footer a{
+    color: black;
+}

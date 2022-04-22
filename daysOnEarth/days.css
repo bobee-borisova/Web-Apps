@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:wght@400;700&family=Square+Peg&display=swap');
+
+html, body{
+    box-sizing: border-box;
+}
+body {
+    background-image: url(assets/galaxy.jpg);
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin:0;
+    font-family: 'Square Peg', cursive;
+}
+
+.globe-area{
+    padding-top: 3%;
+    padding-bottom: 10%;
+}
+.globe{
+    background-image: url(assets/earth.jpg);
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    border-radius: 100%;
+    animation: rotate 55s linear alternate infinite;
+}
+
+@keyframes rotate {
+    100%{background-position: 100%;}
+}
+
+.text{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+}
